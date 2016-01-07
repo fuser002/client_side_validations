@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['tagliala.dev@gmail.com', 'bcardarella@gmail.com']
 
   spec.summary       = 'Client Side Validations'
-  spec.description   = 'Client Side Validations made easy for your Rails 4 applications'
+  spec.description   = 'Client Side Validations made easy for your Rails 5 applications'
   spec.homepage      = 'https://github.com/DavyJonesLocker/client_side_validations'
   spec.license       = 'MIT'
 
@@ -19,8 +19,8 @@ Gem::Specification.new do |spec|
   spec.files         = `git ls-files -z -- {HISTORY.md,README.md,lib,vendor}`.split("\x0")
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'rails', '>= 4.0.0', '< 4.3.0'
-  spec.add_dependency 'jquery-rails', '>= 3.1.2', '< 5.0.0'
+  spec.add_dependency 'rails', '>= 5.0.0.beta3', '< 5.1.0'
+  spec.add_dependency 'jquery-rails', '~> 4.0', '>= 4.0.1'
   spec.add_dependency 'js_regex', '~> 1.0', '>= 1.0.9'
 
   spec.add_development_dependency 'appraisal', '~> 2.1'

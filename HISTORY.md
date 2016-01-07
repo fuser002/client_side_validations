@@ -1,5 +1,9 @@
 # ClientSideValidation History
 
+## Version 5.0
+
+* [v5.0.0](https://github.com/DavyJonesLocker/client_side_validations/compare/v4.2.3...v5.0.0)
+
 ## Version 4.2
 
 * [v4.2.3](https://github.com/DavyJonesLocker/client_side_validations/compare/v4.2.2...v4.2.3)
