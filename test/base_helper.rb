@@ -14,17 +14,10 @@ end
 require 'rubygems'
 require 'bundler/setup'
 require 'minitest/autorun'
-if RUBY_VERSION >= '2.0.0'
-  require 'byebug'
-else
-  require 'debugger'
-end
+require 'byebug'
 require 'mocha/setup'
 require 'rails'
 require 'client_side_validations/config'
-
-# MiniTest 4 support
-MiniTest::Test = MiniTest::Unit::TestCase unless defined?(MiniTest::Test)
 
 module TestApp
   class Application < Rails::Application
